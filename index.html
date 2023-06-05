@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zymo Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <section class="hero-section">
+    <img src="Assets/banner.jpg" alt="Banner Image">
+    <h1 class="title">Header Text</h1>
+    <h2 class="subtitle">Lorem ipsum</h2>
+    <div class="icon-group">
+      <div class="icon">
+        <img src="Assets/checkmark_icon.jpg" alt="Icon 1">
+        <h3 class="subtitle">Lorem ipsum</h3>
+      </div>
+      <div class="icon">
+        <img src="Assets/graphs_icon.jpg" alt="Icon 2">
+        <h3 class="subtitle">Lorem ipsum</h3>
+      </div>
+      <div class="icon">
+        <img src="Assets/bullseye_icon.jpg" alt="Icon 3">
+        <h3 class="subtitle">Lorem ipsum</h3>
+      </div>
+    </div>
+    <button class="inquire-button" onclick="scrollToForm()">Inquire Now</button>
+  </section>
+
+
+
+  <section class="general-info-section">
+    <h1 class="subtitlebigger">Header Text</h1>
+    <h2 class="subtitle">Lorem ipsum</h2>
+    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Et ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante metus dictum. Vestibulum
+        sed arcu non odio euismod. Ornare quam viverra orci sagittis eu. Nisi vitae suscipit tellus mauris a diam maecenas sed
+        enim. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Amet luctus venenatis lectus magna fringilla
+        urna porttitor. Massa ultricies mi quis hendrerit. Duis convallis convallis tellus id interdum. Diam maecenas ultricies mi
+        eget mauris pharetra et ultrices.</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet. Nisi est sit amet facilisis magna etiam tempor. Quam lacus suspendisse faucibus interdum
+        posuere lorem ipsum. Amet massa vitae tortor condimentum. Lobortis scelerisque fermentum dui faucibus in ornare. Nisl
+        nisi scelerisque eu ultrices vitae auctor eu augue ut. Morbi tincidunt ornare massa eget egestas. Consequat id porta nibh
+        venenatis cras. Nibh venenatis cras sed felis eget. Fringilla urna porttitor rhoncus dolor purus. Et netus et malesuada fames
+        ac turpis egestas. Diam ut venenatis tellus in metus vulputate.</p>
+  </section>
+
+  <div class="testimonials">
+    <div class="inner">
+      <h1>Testimonials</h1>
+      <div class="border"></div>
+      <div class="row">
+        <div class="col">
+          <div class="testimonial">
+            <img src="https://www.skagenfunds.ch/globalassets/photos/people/portfolio-managers/stein-svalestad.jpg">
+            <div class="name">Full Name</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque, obcaecati hic qui odio dolorum!</p>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="testimonial">
+            <img src="https://www.skagenfunds.ch/globalassets/photos/people/portfolio-managers/stein-svalestad.jpg">
+            <div class="name">Full Name</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque, obcaecati hic qui odio dolorum!</p>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="testimonial">
+            <img src="https://www.skagenfunds.ch/globalassets/photos/people/portfolio-managers/stein-svalestad.jpg">
+            <div class="name">Full Name</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque, obcaecati hic qui odio dolorum!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <h1 class="subtitlebigger">Contact Form</h1>
+    <section class="contact-form-section">
+    <div class="input-row">
+      <div class="input-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name">
+      </div>
+      <div class="input-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name">
+      </div>
+    </div>
+    <div class="input-row">
+      <div class="input-group">
+        <label for="company">Company</label>
+        <input type="text" id="company">
+      </div>
+      <div class="input-group">
+        <label for="role">Role</label>
+        <input type="text" id="role">
+      </div>
+    </div>
+    <div class="input-group">
+      <label for="comments">Additional Comments</label>
+      <textarea id="comments"></textarea>
+    </div>
+    <button id="submit" onclick="submitForm()">Submit</button>
+    <div id="success-message" style="display: none;">Submission successful!</div>
+  </section>
+
+
+  
+        <input class="c-checkbox" id="c-checkbox" type="checkbox" />
+          
+        <div class="cookie-box">
+          
+          <div class="first-column" >
+          <h2>SIGN UP TO THE NEWSLETTER</h2>
+            <p>For Latest News and Special Offers from Zymo</p> 
+          </div>
+          
+          <div class="second-column">
+           <label for="c-checkbox" class="c-close"></label>
+          <form>       
+            
+              <input placeholder="Your email" type="text"> 
+          
+             <input class="btn" type="submit" value="Sign Up"/>      
+        
+          </form>
+          
+          <div class="optin">
+          <input class="regular-checkbox" id="regular-checkbox" type="checkbox" />
+          <p  style="width: 95%; float: right; font-size: 14px;">I acknowledge that I have read and understood the Zymo <a href="#">Privacy Policy</a> and I consent to receive emails containing special offers, news and promotions from Zymo.</p>
+          </div>
+          
+          </div>
+            
+        </div>  
+           
+          <div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </div>
+         
+
+</body>
+</html>
+
+      

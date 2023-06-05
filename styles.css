@@ -1,0 +1,489 @@
+@font-face {
+    font-family: 'AftikaBold';
+    src: url('Fonts/aftika-extrabold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Shoika';
+    src: url('Fonts/shoika-regular.woff') format('woff');
+  }
+
+    body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2100px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 65px;
+    }
+
+    img {
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0; /* Centers the image horizontally */
+    width: 100vw
+    }
+
+  .title {
+    font-family: 'AftikaBold';
+    font-size: 45px;
+    color: #00833C;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px; 
+    margin-top: 25px;
+  }
+  
+  .subtitle {
+    font-family: 'Shoika';
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+  }
+
+  .subtitlebigger {
+    font-family: 'Shoika';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top: 80px; 
+    margin-bottom: 20px;
+  }
+
+  .paragraph {
+    font-family: 'Shoika';
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 50px; 
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 23px;
+  }
+  
+  .icon-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 170px; /* Adjust the spacing as needed */
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 15px;
+  }
+
+  .inquire-button {
+    font-family: 'AftikaBold';
+    background-color: #00833C;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 25px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .hero-section {
+    margin-top: 2200px;
+  }
+
+  .general-info-section {
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #F1F1F1;
+  }  
+
+  .inquire-button:hover {
+    background-color: #7cbb96;
+  }
+
+  .contact-form-section {
+    margin-top: 20px;
+    padding-left: 50px;
+    font-family: 'Shoika';
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%; 
+    padding-bottom: 50px;
+  }
+  
+  .input-group input, .input-group textarea {
+    padding: 15px;
+    border: 1px solid #656564;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Shoika';
+  }  
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    width: 45%;
+  }
+  
+  .input-group textarea {
+    height: 100px;
+  }  
+
+  button.inquire-button {
+    margin-top: 20px;
+  }
+
+  form {
+    margin: 0;
+    padding: 0;
+  }
+
+  #comments {
+    font-family: 'Shoika';
+    padding: 10px;
+    border: 1px solid #656564;
+    border-radius: 6px;
+    width: 200%;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+#submit {
+    font-family: 'AftikaBold';
+    background-color: #00833C;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 25px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+#submit:hover{
+    background-color: #7cbb96;  
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shoika';
+}
+
+.testimonials {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.border {
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+}
+.testimonial {
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img {
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars {
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.cookie-box {
+    background: #02833c;
+    position: fixed;
+    width: 100%;
+    
+    z-index: 9999; 
+    bottom:0;
+    color: white;
+    font-family: 'Shoika';
+    transition: 1.5s;
+    animation: slideIn .8s;
+    animation-delay: .8s;
+  }
+  
+  .cookie-box h5 {
+      font-size: 1.125rem;
+      line-height: 1.33333;
+      line-height: 1.1;
+  }
+  
+  
+  .cookie-box a {
+    color: #7cbb96;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .cookie-box h2 {
+    font-family: 'AftikaBold';
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+    }
+  
+  .cookie-box p {
+    font-size: 0.875rem;  
+    color: #4a4b4d;
+  }
+  
+  .first-column {  
+    width: 40%;
+    float: left;
+    display: inline-block;
+    
+  }
+  
+  .cookie-box .first-column h2 {  
+    padding: 3.5% 3.5% 0 5%;
+  }
+  
+  .cookie-box .first-column p {  
+    padding: 0 0 0 40px;
+    color: #7cbb96;
+    font-size: 1rem;
+  }
+  
+  .second-column {
+    background-color: white;
+    width: 60%;
+    float: left;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  
+  .c-close {
+    border: none;
+    color: black;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 12px;
+    font-family: 'FontAwesome';
+    cursor: pointer;
+    border-radius: 3px;
+    line-height: 30px;
+    height: 32px;
+    width: 32px;
+    font-size: 2rem;
+  }
+  
+  
+  form input[type="text"] {
+      background-color: #e0e7f4;
+      border: none;
+      margin-left: 15px;
+      color: #8b98ae;
+      width: 65%;
+      display: inline-block;
+      height: 45px;
+      line-height: 1;
+      box-shadow: none;
+      box-sizing: border-box;
+      max-width: 100%;
+      outline: none;
+      position: relative;
+      cursor: text;
+      padding: 0 10px;
+  }
+    
+     .btn {    
+      width: 25%;
+      height: 45px;
+      line-height: 45px;
+      vertical-align: top;
+      margin-left: -4px;
+      background-color: #02833c;
+      background-image: none;
+      box-shadow: none;
+      box-sizing: border-box;
+      font-size: .95rem;
+      display: inline-block;
+      zoom: 1;
+      font-family: "Shoika";
+      padding: 0 12px;
+      white-space: nowrap;
+      position: relative;
+      text-transform: uppercase;
+      border: none;
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .regular-checkbox {
+      -webkit-appearance: none;
+      background-color: #fafafa;
+      border: 2px solid #02833c;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+      padding: 9px;
+      border-radius: 2px;
+      display: inline-block;
+      position: relative;
+    margin: 15px 0px 0px 15px;
+    display: inline-block;
+  }
+  
+  .regular-checkbox:active, .regular-checkbox:checked:active {
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .regular-checkbox:checked {
+      background-color: #e9ecee;
+      border: 2px solid #02833c;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+      color: #99a1a7;
+  }
+  
+  .regular-checkbox:checked:after {
+      content: '';
+      background-image: url(https://cdn.icon-icons.com/icons2/916/PNG/512/Checkmark_icon-icons.com_71846.png);
+    position: absolute;
+      display: inline-block;
+      width: 15px;
+      background-size: 14px 13px;
+      height: 15px;
+      left: 2px;
+      top: 2px;
+  }
+  
+  
+  .alert {
+    color: red;  
+  } 
+  
+  
+  .alert2 {
+    border: 2px solid red;
+  }
+  
+  
+      .ahashakeheartache {
+              -webkit-animation: kf_shake 0.4s 1 linear;
+              -moz-animation: kf_shake 0.4s 1 linear;
+              -o-animation: kf_shake 0.4s 1 linear;
+          }
+          @-webkit-keyframes kf_shake {
+              0% { -webkit-transform: translate(30px); }
+              20% { -webkit-transform: translate(-30px); }
+              40% { -webkit-transform: translate(15px); }
+              60% { -webkit-transform: translate(-15px); }
+              80% { -webkit-transform: translate(8px); }
+              100% { -webkit-transform: translate(0px); }
+          }
+          @-moz-keyframes kf_shake {
+              0% { -moz-transform: translate(30px); }
+              20% { -moz-transform: translate(-30px); }
+              40% { -moz-transform: translate(15px); }
+              60% { -moz-transform: translate(-15px); }
+              80% { -moz-transform: translate(8px); }
+              100% { -moz-transform: translate(0px); }
+          }
+          @-o-keyframes kf_shake {
+              0% { -o-transform: translate(30px); }
+              20% { -o-transform: translate(-30px); }
+              40% { -o-transform: translate(15px); }
+              60% { -o-transform: translate(-15px); }
+              80% { -o-transform: translate(8px); }
+              100% { -o-origin-transform: translate(0px); }
+          }
+  
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(400px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .c-checkbox {
+    display: none;
+    &:checked + .cookie-box {
+      transform: translateY(175px);
+      background-color: #F06350;
+    }
+  }
+  
