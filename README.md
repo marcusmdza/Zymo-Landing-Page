@@ -7,7 +7,6 @@ This is a mockup webpage project created for the biotech company Zymo. It showca
 
 - [Description](#description)
 - [Technologies](#technologies)
-- [Usage](#usage)
 - [Known Issues](#known-issues)
 - [Future Improvements](#future-improvements)
 
@@ -22,10 +21,6 @@ The project is built using the following technologies:
 - HTML
 - CSS
 - JavaScript
-
-## Usage
-
-To view the webpage, open the `index.html` file in a web browser.
 
 ## Known Issues
 
